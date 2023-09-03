@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: antiquewhite;
+        text-align: center;
+    }
+    #container,#container2,#container3,#container4 {
+        width: 512px;
+        border: 1px solid black;
+        margin: 0 auto;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 24px;
+        background-color:bisque;
+    }
+    
+</style>
+<body>
+  
+    
+    <div id="container"></div>
+    <div id="container2"></div>
+    <div id="container3"></div>
+    <div id="container4"></div>
+
+    O =gracze
+    X = przeciwnicy
+<script>
+    con = document.getElementById("container");
+    ene = document.getElementById("container2");
+    com = document.getElementById("container3");
+    pon = document.getElementById("container4");
+    var wynik =[];
+
+    let input =prompt("Wprowadz inicjatywe Graczy:");
+    let array =input.split(" ");
+    let num_arr = [];
+
+    for (var i = 0; i < array.length; i++) {
+        num_arr.push(parseInt(array[i]));
+        wynik[i] = num_arr[i]+0.5;
+    }
+    
+ //----------------------------------------------------------\\
+
+    let e_input =prompt("Wprowadz inicjatywe Przeciwników:");
+    let e_array =e_input.split(" ");
+    let e_num_arr = [];
+
+    for (var i = 0; i < e_array.length; i++) {
+        e_num_arr.push(parseInt(e_array[i]));
+        roll =  Math.floor(Math.random() * (20 - 1 + 1) + 1);
+        e_num_arr[i]=roll+e_num_arr[i];
+    }
+
+//----------------------------------------------------------\\
+
+    const smoothArray = num_arr.concat(e_num_arr);
+    const combinedArray = wynik.concat(e_num_arr);
+        combinedArray.sort(function(a, b){return b - a});
+        smoothArray.sort(function(a, b){return b - a});
+
+    for(i = 0; i<combinedArray.length; i++) {
+        if(combinedArray[i]%1 == 0){
+            pon.innerText += " X";
+        }else{
+            pon.innerText += " O";
+        }
+    }   //Wyswietlanie rzutow
+        con.innerText = num_arr;
+        ene.innerText = e_num_arr;
+        com.innerText = smoothArray;
+</script>
+</body>
+</html>
