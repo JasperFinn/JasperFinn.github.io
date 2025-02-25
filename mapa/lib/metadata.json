@@ -1,0 +1,329 @@
+{
+  "vaultName": "Odala",
+  "lastExport": 1739486640776,
+  "pluginVersion": "1.8.01",
+  "validBodyClasses": "publish css-settings-manager theme-light show-ribbon sizing-readable link-notion check-color check-bg tables-no-alt-column-background tables-borders wotc-beyond",
+  "useCustomHeadContent": false,
+  "useCustomFavicon": false,
+  "files": [
+    "Lokacje/Madre/Gotlana/Gotlana.md",
+    "Lokacje/Madre/Throria/Durchgang.md",
+    "Lokacje/Madre/Throria/Gabel.md",
+    "Lokacje/Madre/Throria/Heuchlingen.md",
+    "Lokacje/Madre/Throria/Throria.md",
+    "Lokacje/Madre/Unitara/Akademia.md",
+    "Lokacje/Madre/Unitara/Cicha samotnia.md",
+    "Lokacje/Madre/Unitara/Cieslowen.md",
+    "Lokacje/Madre/Unitara/Costa Vertosa.md",
+    "Lokacje/Madre/Unitara/Estia.md",
+    "Lokacje/Madre/Unitara/Iłomar.md",
+    "Lokacje/Madre/Unitara/Kraja.md",
+    "Lokacje/Madre/Unitara/Lietos.md",
+    "Lokacje/Madre/Unitara/Malia.md",
+    "Lokacje/Madre/Unitara/Meder.md",
+    "Lokacje/Madre/Unitara/Paeonia.md",
+    "Lokacje/Madre/Unitara/Parnobrzeg.md",
+    "Lokacje/Madre/Unitara/Pohronna.md",
+    "Lokacje/Madre/Unitara/Przymost.md",
+    "Lokacje/Madre/Unitara/Rähn.md",
+    "Lokacje/Madre/Unitara/Rozjazdy.md",
+    "Lokacje/Madre/Unitara/Srebrna Stuga.md",
+    "Lokacje/Madre/Unitara/Stolica.md",
+    "Lokacje/Madre/Unitara/Unitara.md",
+    "Lokacje/Madre/Madre.md",
+    "Lokacje/Madre/Zio.md",
+    "Lokacje/Elfia Wyspa.md",
+    "Lokacje/Szklana pustynia.md",
+    "Lokacje/z-Lokacje.md",
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/6155340132a851f6089e.svg"
+  ],
+  "mainDependencies": [
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/6155340132a851f6089e.svg"
+  ],
+  "fileInfo": {
+    "Lokacje/Madre/Gotlana/Gotlana.md": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 18,
+      "exportedPath": "Lokacje/Madre/Gotlana/Gotlana.html",
+      "dependencies": []
+    },
+    "Lokacje/Madre/Throria/Durchgang.md": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 3548,
+      "exportedPath": "Lokacje/Madre/Throria/Durchgang.html",
+      "dependencies": []
+    },
+    "Lokacje/Madre/Throria/Gabel.md": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 712,
+      "exportedPath": "Lokacje/Madre/Throria/Gabel.html",
+      "dependencies": []
+    },
+    "Lokacje/Madre/Throria/Heuchlingen.md": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 825,
+      "exportedPath": "Lokacje/Madre/Throria/Heuchlingen.html",
+      "dependencies": []
+    },
+    "Lokacje/Madre/Throria/Throria.md": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 1359,
+      "exportedPath": "Lokacje/Madre/Throria/Throria.html",
+      "dependencies": []
+    },
+    "Lokacje/Madre/Unitara/Akademia.md": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 713,
+      "exportedPath": "Lokacje/Madre/Unitara/Akademia.html",
+      "dependencies": []
+    },
+    "Lokacje/Madre/Unitara/Cicha samotnia.md": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 1390,
+      "exportedPath": "Lokacje/Madre/Unitara/Cicha samotnia.html",
+      "dependencies": []
+    },
+    "Lokacje/Madre/Unitara/Cieslowen.md": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 41,
+      "exportedPath": "Lokacje/Madre/Unitara/Cieslowen.html",
+      "dependencies": []
+    },
+    "Lokacje/Madre/Unitara/Costa Vertosa.md": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 89,
+      "exportedPath": "Lokacje/Madre/Unitara/Costa Vertosa.html",
+      "dependencies": []
+    },
+    "Lokacje/Madre/Unitara/Estia.md": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 255,
+      "exportedPath": "Lokacje/Madre/Unitara/Estia.html",
+      "dependencies": []
+    },
+    "Lokacje/Madre/Unitara/Iłomar.md": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 41,
+      "exportedPath": "Lokacje/Madre/Unitara/Iłomar.html",
+      "dependencies": []
+    },
+    "Lokacje/Madre/Unitara/Kraja.md": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 47,
+      "exportedPath": "Lokacje/Madre/Unitara/Kraja.html",
+      "dependencies": []
+    },
+    "Lokacje/Madre/Unitara/Lietos.md": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 41,
+      "exportedPath": "Lokacje/Madre/Unitara/Lietos.html",
+      "dependencies": []
+    },
+    "Lokacje/Madre/Unitara/Malia.md": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 1035,
+      "exportedPath": "Lokacje/Madre/Unitara/Malia.html",
+      "dependencies": []
+    },
+    "Lokacje/Madre/Unitara/Meder.md": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 1,
+      "exportedPath": "Lokacje/Madre/Unitara/Meder.html",
+      "dependencies": []
+    },
+    "Lokacje/Madre/Unitara/Paeonia.md": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 55,
+      "exportedPath": "Lokacje/Madre/Unitara/Paeonia.html",
+      "dependencies": []
+    },
+    "Lokacje/Madre/Unitara/Parnobrzeg.md": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 3588,
+      "exportedPath": "Lokacje/Madre/Unitara/Parnobrzeg.html",
+      "dependencies": []
+    },
+    "Lokacje/Madre/Unitara/Pohronna.md": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 40,
+      "exportedPath": "Lokacje/Madre/Unitara/Pohronna.html",
+      "dependencies": []
+    },
+    "Lokacje/Madre/Unitara/Przymost.md": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 3235,
+      "exportedPath": "Lokacje/Madre/Unitara/Przymost.html",
+      "dependencies": []
+    },
+    "Lokacje/Madre/Unitara/Rähn.md": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 791,
+      "exportedPath": "Lokacje/Madre/Unitara/Rähn.html",
+      "dependencies": []
+    },
+    "Lokacje/Madre/Unitara/Rozjazdy.md": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 1412,
+      "exportedPath": "Lokacje/Madre/Unitara/Rozjazdy.html",
+      "dependencies": []
+    },
+    "Lokacje/Madre/Unitara/Srebrna Stuga.md": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 975,
+      "exportedPath": "Lokacje/Madre/Unitara/Srebrna Stuga.html",
+      "dependencies": []
+    },
+    "Lokacje/Madre/Unitara/Unitara.md": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 4152,
+      "exportedPath": "Lokacje/Madre/Unitara/Unitara.html",
+      "dependencies": []
+    },
+    "Lokacje/Madre/Madre.md": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 637,
+      "exportedPath": "Lokacje/Madre/Madre.html",
+      "dependencies": []
+    },
+    "Lokacje/Madre/Zio.md": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 3748,
+      "exportedPath": "Lokacje/Madre/Zio.html",
+      "dependencies": []
+    },
+    "Lokacje/Elfia Wyspa.md": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 228,
+      "exportedPath": "Lokacje/Elfia Wyspa.html",
+      "dependencies": []
+    },
+    "Lokacje/Szklana pustynia.md": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 864,
+      "exportedPath": "Lokacje/Szklana pustynia.html",
+      "dependencies": []
+    },
+    "Lokacje/z-Lokacje.md": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 57,
+      "exportedPath": "Lokacje/z-Lokacje.html",
+      "dependencies": []
+    },
+    "lib/fonts/94f2f163d4b698242fef.otf": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 66800,
+      "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
+      "dependencies": []
+    },
+    "lib/fonts/72505e6a122c6acd5471.woff2": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 104232,
+      "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/2d5198822ab091ce4305.woff2": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 104332,
+      "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 98868,
+      "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cb10ffd7684cd9836a05.woff2": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 106876,
+      "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/b5f0f109bc88052d4000.woff2": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 105804,
+      "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cbe0ae49c52c920fd563.woff2": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 106108,
+      "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/535a6cf662596b3bd6a6.woff2": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 111708,
+      "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/70cc7ff27245e82ad414.ttf": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 192740,
+      "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/454577c22304619db035.ttf": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 161376,
+      "exportedPath": "lib/fonts/454577c22304619db035.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/52ac8f3034507f1d9e53.ttf": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 191568,
+      "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/05b618077343fbbd92b7.ttf": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 155288,
+      "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 7876,
+      "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+      "dependencies": []
+    },
+    "lib/media/6155340132a851f6089e.svg": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 315,
+      "exportedPath": "lib/media/6155340132a851f6089e.svg",
+      "dependencies": []
+    },
+    "Lokacje/Madre/Unitara/Stolica.md": {
+      "modifiedTime": 1739486640776,
+      "sourceSize": 275,
+      "exportedPath": "Lokacje/Madre/Unitara/Stolica.html",
+      "dependencies": []
+    }
+  }
+}

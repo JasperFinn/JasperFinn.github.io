@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa</title>
+
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <link rel="stylesheet" href="style.css">
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="geo_dane/land.js"></script><script src="geo_dane/ddata.js"></script>
+    <script src="geo_dane/pent.js"></script><script src="geo_dane/point.js"></script>
+    <script src="geo_dane/cities.js"></script><script src="geo_dane/roads.js"></script>
+
+</head>
+<body>
+    <div id="all">
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <iframe id= "wiki" src="Lokacje/Madre/Uniatara/Parnobrzeg.html"></iframe>
+          </div>
+          <button class="openbtn" onclick="openNav()">&#9776;</button>
+    
+  
+        <div id="map"></div>
+    </div>
+
+<script>
+/* Set the width of the sidebar to 250px (show it) */
+function openNav() {
+  document.getElementById("mySidepanel").style.width = "40%";
+}
+/* Set the width of the sidebar to 0 (hide it) */
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
+} 
+
+let map = L.map('map',{zoomControl: false}).setView([30.57, -40.25], 3);
+
+L.geoJSON(ddata).addTo(map);
+L.geoJSON(roads).addTo(map);
+L.geoJSON(land, {
+    onEachFeature: colorlayer,
+    style: {
+        color: " #000000 ",
+        fillColor: '#DDFFDD',
+        fillOpacity: 0.5
+    }
+}).addTo(map); 
+
+//skala
+L.control.zoom({
+    position: 'bottomright'
+}).addTo(map)
+
+// - - - funkcja wyświtlania nazw miast - - -
+function onEachFeature(feature, layer) {
+    let popupContent = `${feature.properties.Nazwa}`;
+    //console.log(popupContent);
+
+    // Nie wiem co to robi, ale działa bez tego
+/*    if (feature.properties && feature.properties.popupContent) {
+        popupContent += feature.properties.popupContent;
+    }
+*/
+    //layer.bindPopup(popupContent);
+    layer.bindTooltip(popupContent, {pane:"tooltipPane",permanent: true, className: "my-label",direction: "bottom" ,offset: [0, 2]});
+}
+
+// IKONKI
+const wies = L.icon({
+iconUrl: "ikony/wies.svg",
+iconSize: [10, 10],
+});
+
+const miasteczko = L.icon({
+iconUrl: "ikony/miasteczko.svg",
+iconSize: [12, 12],
+});
+const miasto = L.icon({
+iconUrl: "ikony/miasto.svg",
+iconSize: [14, 14],
+});
+const duze_miasto = L.icon({
+iconUrl: "ikony/duze_miasto.svg",
+iconSize: [16, 16],
+});
+const stoica = L.icon({
+iconUrl: "ikony/stolica.svg",
+iconSize: [16, 16],
+});
+
+// --- wyświetlanie punktów z custom ikonkami ---
+const cities_ikons = L.geoJSON(cities, {
+pointToLayer(feature, latlng) {
+    switch (feature.properties.Size) {
+            case 1: return L.marker(latlng, {icon: wies});
+            case 2: return L.marker(latlng, {icon: miasteczko});
+            case 3: return L.marker(latlng, {icon: miasto});
+            case 4: return L.marker(latlng, {icon: duze_miasto});
+            case 5: return L.marker(latlng, {icon: stoica});
+        }
+        
+},onEachFeature
+}).addTo(map);
+
+// event click na ikonce miasta aby otworzyć jego stronę wiki
+cities_ikons.on("click", function (event) {
+
+    document.getElementById("wiki").src = "Lokacje/Madre/"+event.sourceTarget.feature.properties.Kraj+"/"+event.sourceTarget.feature.properties.Nazwa + ".html";
+    //let status = getStatus("Lokacje/Madre/"+event.sourceTarget.feature.properties.Kraj+"/"+event.sourceTarget.feature.properties.Nazwa + ".html");
+    //console.log(status);
+    openNav();
+});
+// skala mapy
+L.control.scale({
+    metric: true,
+    imperial: false,
+    maxWidth: 256,
+    position: "bottomleft"
+}).addTo(map);
+
+map.on("contextmenu", function (event) {
+  console.log("Coordinates: " + event.latlng.toString());
+  L.marker(event.latlng).addTo(map);
+});
+
+// hover on element
+function colorlayer(feature, layer) {
+    layer.on('mouseover', function (e) {
+        layer.setStyle({
+            fillOpacity: 0.8
+        });
+    });
+    layer.on('mouseout', function (e) {
+        layer.setStyle({
+            fillOpacity: 0.8
+        });
+    });
+}    
+    </script>
+</body>
+</html>
